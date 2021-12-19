@@ -25,7 +25,7 @@ int	ft_iterative_power(int nb, int power)
 	{
 		while (z < power)
 		{
-			a = n * nb;
+			a = a * nb;
 			z++;
 		}
 	}
